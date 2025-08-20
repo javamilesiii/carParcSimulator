@@ -1,4 +1,4 @@
-package parkhausSimulator;
+package parkhausSimulator.app.ch.javamilesiii.src;
 
 public class ExitBarrier extends Barrier{
 

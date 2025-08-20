@@ -1,4 +1,4 @@
-package parkhausSimulator;
+package parkhausSimulator.app.ch.javamilesiii.src;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {

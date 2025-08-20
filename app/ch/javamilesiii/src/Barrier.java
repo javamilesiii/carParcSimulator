@@ -1,4 +1,4 @@
-package parkhausSimulator;
+package parkhausSimulator.app.ch.javamilesiii.src;
 
 public class Barrier {
     private String barrierName;

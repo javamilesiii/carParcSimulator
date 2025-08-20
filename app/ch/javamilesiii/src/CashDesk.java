@@ -1,4 +1,4 @@
-package parkhausSimulator;
+package parkhausSimulator.app.ch.javamilesiii.src;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
