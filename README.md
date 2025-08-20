@@ -41,9 +41,8 @@ app/ch/javamilesiii/src/
 ├── Ticket.java                  # Parking ticket with timestamp
 ├── TicketMachine.java           # Ticket generation and management
 ├── CashDesk.java                # Payment processing
-├── IOHandler.java               # User interface handler (in development)
-├── Display.java                 # Display system (to be implemented)
-├── SpotsDisplay.java            # Space availability display
+├── IOHandler.java               # User interface handler
+├── Display.java                 # Display system for real-time updates
 └── TicketNotFoundException.java # Custom exception class
 ```
 

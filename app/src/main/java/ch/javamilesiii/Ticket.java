@@ -20,12 +20,15 @@ public class Ticket {
     public int getTicketNumber() {
         return ticketNumber;
     }
+
     public LocalDateTime getPurchaseTime() {
         return purchaseTime;
     }
+
     public boolean isPaid() {
         return isPaid;
     }
+
     public void setPaid(boolean paid) {
         isPaid = paid;
     }

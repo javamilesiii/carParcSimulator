@@ -7,8 +7,10 @@ public class Main {
         float pricePerMinute = 1.5f;
         CarParc carParc = new CarParc(floors, parkingSpots, pricePerMinute);
 
+        carParc.getMainDisplay().setTotalSpaces(carParc.getTotalSpaces());
+        carParc.getMainDisplay().showWelcomeMessage();
+
         IOHandler handler = new IOHandler();
         handler.startSimulation(carParc);
-
     }
 }

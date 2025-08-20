@@ -10,9 +10,11 @@ public class TicketMachine {
         activeTickets.add(ticket);
         return ticket;
     }
+
     public void removeTicket(Ticket ticket) {
         activeTickets.remove(ticket);
     }
+
     public Ticket getTicketFromNumber(int ticketNumber) {
         return activeTickets.stream()
                 .filter(ticket -> ticket.getTicketNumber() == ticketNumber)
@@ -20,3 +22,4 @@ public class TicketMachine {
                 .orElseThrow(() -> new TicketNotFoundException(ticketNumber));
     }
 }
+
