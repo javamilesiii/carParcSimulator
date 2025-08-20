@@ -1,14 +1,12 @@
-package parkhausSimulator.app.ch.javamilesiii.src;
+package parkhausSimulator.app.src.main.java.ch.javamilesiii;
 
-public class SpotsDisplay {
+public class Display {
     private int freeSpaces;
 
     public void setFreeSpaces(int freeSpaces) {
         this.freeSpaces = freeSpaces;
     }
-
-    private void updateDisplay() {
+    public void updateDisplay() {
         System.out.println("Display: " + freeSpaces + " spaces left");
     }
-
 }
