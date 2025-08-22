@@ -107,6 +107,9 @@ float pricePerMinute = 1.5f; // Price in currency units per minute
 - **CashDesk**: Processes payments and calculates fees
 - **Ticket**: Stores parking session data
 
+The relationships are shown in the following UML diagram:
+[UML](uml_parkingSimulator.png)
+
 ## Current Status
 
 ### Implemented Features ✅
@@ -117,22 +120,9 @@ float pricePerMinute = 1.5f; // Price in currency units per minute
 - Space availability tracking
 - Custom exception handling
 
-### In Development 🚧
-- Complete user interface implementation
-- Floor selection and parking spot assignment
-- Display system for real-time updates
-- Enhanced error handling
-
 ## Contributing
 
 This project is part of an educational exercise. Contributions and suggestions for improvements are welcome!
-
-### Areas for Development
-- Complete the `IOHandler` implementation
-- Implement the `Display` class functionality
-- Add comprehensive unit tests
-- Improve error handling and validation
-- Add logging capabilities
 
 ## License
 
