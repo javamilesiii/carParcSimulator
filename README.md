@@ -61,7 +61,7 @@ app/ch/javamilesiii/src/
 
 2. Navigate to the source directory:
    ```bash
-   cd app/ch/javamilesiii/src/
+   cd app/src/main/java/ch/javamilesiii
    ```
 
 3. Compile the Java files:
